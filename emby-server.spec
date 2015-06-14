@@ -1,5 +1,6 @@
 # TODO
 # - emby user
+%include	/usr/lib/rpm/macros.mono
 Summary:	Emby: home media server
 Name:		emby-server
 Version:	3.0.5607.2
@@ -10,6 +11,8 @@ Source0:	https://github.com/MediaBrowser/MediaBrowser/archive/%{version}.tar.gz
 # Source0-md5:	84f0e9a3ee083622562cae203583a65b
 URL:		http://emby.media/
 BuildRequires:	mono >= 3.2.7
+BuildRequires:	rpmbuild(macros) >= 1.268
+BuildRequires:	rpmbuild(monoautodeps)
 Requires:	ImageMagick >= 6.8
 Requires:	libmediainfo
 Requires:	mono >= 3.2.7
