@@ -1,6 +1,5 @@
 # TODO
 # - emby user
-%include	/usr/lib/rpm/macros.mono
 Summary:	Emby: home media server
 Name:		emby-server
 Version:	3.0.5607.2
